@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "Closures in Java"
 description: ""
 category:

@@ -100,37 +100,49 @@ author:
   name             : "Marcel Hlopko"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am an amazing person."
-  location         : "Somewhere over the rainbow"
+  #location         : "Somewhere over the rainbow"
   email            : "marcel@hlopko.com"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:marcel@hlopko.com"
-    - label: "Website"
+    - label: "My Family Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://pavliamacko.com"
+    - label: "My Kayaking Clips"
+      icon: "fas fa-fw fa-link"
+      url: "https://vimeo.com/hlopik"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/hlopko"
+    - label: "This Blog"
       icon: "fas fa-fw fa-link"
       url: "https://hlopko.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/marcelhlopko"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/hlopko"
+    - label: "Linkedin"
+      icon: "fas fa-fw fa-link"
+      url: "https://www.linkedin.com/in/marcelhlopko/"
 
 # Site Footer
 footer:
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:marcel@hlopko.com"
-    - label: "Website"
+    - label: "My Family Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://pavliamacko.com"
+    - label: "My Kayaking Clips"
+      icon: "fas fa-fw fa-link"
+      url: "https://vimeo.com/hlopik"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/hlopko"
+    - label: "This Blog"
       icon: "fas fa-fw fa-link"
       url: "https://hlopko.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/marcelhlopko"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/hlopko"
+    - label: "Linkedin"
+      icon: "fas fa-fw fa-link"
+      url: "https://www.linkedin.com/in/marcelhlopko/"
 
 
 # Reading Files
@@ -198,7 +210,7 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
+paginate: 20 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
@@ -211,6 +223,7 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+  - jekyll-remote-theme
 
 # mimic GitHub Pages with --safe
 whitelist:
