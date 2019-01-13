@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 title: "Architecture of Symbolic Computers"
 description: "Just telling you that you should read this book"
 ---

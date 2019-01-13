@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 title: "Smalltalk/X and STX:LIBJAVA Debugging Session"
 description: ""
 category:

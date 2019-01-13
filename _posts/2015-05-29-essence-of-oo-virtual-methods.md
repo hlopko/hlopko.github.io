@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 title: "Essence of OO: Virtual Methods"
 description: ""
 category:

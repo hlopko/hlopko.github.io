@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 title: "Inline Subclass in Java"
 description: ""
 category: Java

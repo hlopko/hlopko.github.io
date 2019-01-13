@@ -1,4 +1,61 @@
 ---
-layout: home
-author_profile: true
+layout: default
 ---
+
+<div id="home">
+  <h1>Posts</h1>
+  <ul class="posts">
+    {% for post in site.posts %}
+    <li>
+      <span class="date">{{ post.date | date: "%Y-%m-%d" }}</span> &raquo;
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+
+  <h1>Links</h1>
+  <ul class="other-pages">
+    <li>
+      <a href="https://bazel.build/">bazel</a>
+      - {Fast, Correct} - Choose two
+    </li>
+    <li>
+      <a href="https://github.com/bazelbuild/rules_cc">rules_cc</a>
+      - C++ rules for Bazel
+    </li>
+    <li>
+      <a href="https://swing.fit.cvut.cz/projects/stx-libjava/">stx:libjava</a>
+      - a Java VM implementation for Smalltalk/X VM
+    </li>
+    <li>
+      <a href="https://vimeo.com/hlopik">vimeo</a>
+      - my kayaking clips
+    </li>
+  </ul>
+
+  <h1>Other</h1>
+  <ul>
+    <li>
+      <span class="date">2016-06-16</span> &raquo;
+      <a
+        href="https://v8.dev/blog/blinkon-6#tracing-wrappers-from-v8-to-blink-(lightning-talk)">BlinkOn
+        6 (Lightning talk): Tracing wrappers from V8 to Blink</a>
+    </li>
+    <li>
+      <span class="date">2014-06-17</span> &raquo;
+      <a href="http://devminutes.cz/#16">Devminutes (podcast): Runtime systems</a>
+    </li>
+    <li>
+      <span class="date">2013-11-23</span> &raquo;
+      <a href="https://www.youtube.com/watch?v=d2XcO8LQe_s">Devfest 2013 (talk): Know Your Runtime</a>
+    </li>
+  </ul>
+
+  <h1>Contact</h1>
+  <ul class="other-pages">
+    <li><a href="mailto:marcel@hlopko.com">email</a></li>
+    <li><a href="http://github.com/hlopko">github</a></li>
+    <li><a href="http://twitter.com/marcelhlopko">twitter</a></li>
+    <li><a href="http://cz.linkedin.com/in/marcelhlopko/">linkedin</a></li>
+  </ul>
+</div>

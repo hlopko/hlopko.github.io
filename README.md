@@ -1,2 +1,0 @@
-# hlopko.github.com
-Blog?

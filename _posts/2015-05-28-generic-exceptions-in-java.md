@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 title: "Generic Exceptions in Java"
 description: ""
 category:

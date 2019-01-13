@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 title: "Essence of OO: Super Sends"
 description: ""
 category:

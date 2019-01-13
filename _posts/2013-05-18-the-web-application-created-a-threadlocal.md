@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 title: "The web application created a ThreadLocal"
 description: ""
 date: 2013-05-18
