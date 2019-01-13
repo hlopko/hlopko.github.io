@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: "Implementation Strategies for First-Class Continuations"
 description: ""
 category:

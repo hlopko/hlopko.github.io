@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: "Architecture of Symbolic Computers"
 description: "Just telling you that you should read this book"
 ---

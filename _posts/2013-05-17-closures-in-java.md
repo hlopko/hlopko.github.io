@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: "Closures in Java"
 description: ""
 category:

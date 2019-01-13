@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: "Essence of OO: Super Sends"
 description: ""
 category:

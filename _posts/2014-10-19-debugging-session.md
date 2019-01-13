@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: "Smalltalk/X and STX:LIBJAVA Debugging Session"
 description: ""
 category:
